@@ -1,0 +1,123 @@
+/*  04. banner section css here  */
+@media only screen and (max-width: 767px) {
+  .banner_area {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .single_banner {
+    margin-bottom: 30px !important;
+  }
+}
+
+.banner_thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner_thumb:hover img {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+@media only screen and (max-width: 767px) {
+  .banner_thumb a {
+    width: 100%;
+  }
+}
+
+.banner_thumb a img {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner_thumb a img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .banner_style2 {
+    margin-bottom: 0;
+  }
+}
+
+.banner_style2 .col-lg-3 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 28%;
+  flex: 0 0 28%;
+  max-width: 28%;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner_style2 .col-lg-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.banner_style2 .col-lg-6 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 44%;
+  flex: 0 0 44%;
+  max-width: 44%;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner_style2 .col-lg-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sidebar_banner_area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sidebar_banner_area {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sidebar_banner_area .single_banner {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+  .sidebar_banner_area .single_banner:last-child {
+    margin-right: 0;
+  }
+}
+
+/*banner three css here*/
+@media only screen and (max-width: 767px) {
+  .banner_three_bottom {
+    margin-bottom: 30px;
+  }
+}
+
+/*banner four css here*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider_s_four .banner_thumb a img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .banner_style4 {
+    margin-bottom: 30px;
+  }
+}
+/*# sourceMappingURL=banner.css.map */

@@ -1,0 +1,114 @@
+/*  23. newsletter popup css here */
+.newletter-popup {
+    background: #fff;
+    top: 50% !important;
+    margin-top: -179px;
+    position: fixed !important;
+    padding: 50px;
+    text-align: center;
+    display: none; }
+    @media only screen and (max-width: 767px) {
+      .newletter-popup {
+        padding: 30px 20px;
+        width: 95%; } }
+  
+  #boxes .newletter-title h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0 0 30px; }
+    @media only screen and (max-width: 767px) {
+      #boxes .newletter-title h2 {
+        font-size: 22px;
+        margin: 0 0 10px; } }
+  
+  #boxes .box-content label {
+    font-weight: 400;
+    font-size: 14px; }
+  
+  #boxes .box-content .newletter-label {
+    width: 70%;
+    margin-bottom: 36px; }
+    @media only screen and (max-width: 767px) {
+      #boxes .box-content .newletter-label {
+        width: 100%; } }
+  
+  #frm_subscribe form {
+    width: 340px;
+    margin: 0 auto;
+    position: relative; }
+    @media only screen and (max-width: 767px) {
+      #frm_subscribe form {
+        width: 100%; } }
+    #frm_subscribe form input {
+      background: #EBEBEB;
+      padding: 0 127px 0 20px;
+      font-size: 13px;
+      height: 45px;
+      border: 0;
+      width: 100%;
+      color: #747474;
+      margin-bottom: 0; }
+      @media only screen and (max-width: 767px) {
+        #frm_subscribe form input {
+          padding: 0 104px 0 20px; } }
+    #frm_subscribe form a.theme-btn-outlined {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 110px;
+      background: #222222;
+      cursor: pointer;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 600;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+      line-height: 45px; }
+      #frm_subscribe form a.theme-btn-outlined:hover {
+        background: #c40316; }
+      @media only screen and (max-width: 767px) {
+        #frm_subscribe form a.theme-btn-outlined {
+          width: 90px; } }
+  
+  #boxes .box-content .subscribe-bottom {
+    margin-top: 20px; }
+  
+  #boxes .box-content .subscribe-bottom label {
+    margin: 0;
+    font-size: 13px; }
+  
+  #boxes .box-content .subscribe-bottom #newsletter_popup_dont_show_again {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle; }
+  
+  #boxes #frm_subscribe #notification {
+    color: #f00; }
+  
+  #boxes #frm_subscribe #notification .success {
+    color: #67D7BB; }
+  
+  #popup2 {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding: 6px 12px;
+    background: #222222;
+    font-weight: 600;
+    line-height: 17px;
+    color: #ffffff;
+    display: block;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+    #popup2:hover {
+      background: #c40316; }
+  
+  /*newsletter popup css end*/

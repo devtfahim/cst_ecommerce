@@ -1,0 +1,100 @@
+/* 15. contact page css here */
+.contact_page_bg {
+    background: #F5F5F9;
+    padding: 60px 0 133px; }
+    @media only screen and (max-width: 767px) {
+      .contact_page_bg {
+        padding: 60px 0 111px; } }
+  
+  .contact_area {
+    padding: 20px;
+    background: #ffffff; }
+  
+  .contact_message h3 {
+    font-size: 21px;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 25px; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .contact_message h3 {
+        margin-bottom: 20px; } }
+    @media only screen and (max-width: 767px) {
+      .contact_message h3 {
+        font-size: 20px;
+        margin-bottom: 20px; } }
+  
+  .contact_message p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 20px; }
+  
+  .contact_message ul li {
+    padding: 13px 0;
+    border-top: 1px solid #ebebeb; }
+    .contact_message ul li:last-child {
+      padding-bottom: 0; }
+    .contact_message ul li i {
+      margin-right: 10px; }
+    .contact_message ul li a:hover {
+      color: #c40316; }
+  
+  .contact_message label {
+    line-height: 18px;
+    font-weight: 500;
+    margin-bottom: 10px; }
+  
+  .contact_message input {
+    border: 1px solid #ebebeb;
+    height: 45px;
+    background: #ffffff;
+    width: 100%;
+    padding: 0 20px;
+    color: #757575; }
+  
+  .contact_message textarea {
+    height: 170px;
+    border: 1px solid #ebebeb;
+    background: #ffffff;
+    resize: none;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px 20px;
+    color: #222222; }
+  
+  .contact_message button {
+    font-weight: 400;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 30px;
+    text-transform: capitalize;
+    border: none;
+    background: #222222;
+    color: #ffffff;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 4px; }
+    .contact_message button:hover {
+      background: #c40316; }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .contact_message.content {
+      margin-bottom: 42px; } }
+  
+  @media only screen and (max-width: 767px) {
+    .contact_message.content {
+      margin-bottom: 42px; } }
+  
+  .contact_message.form p.form-messege {
+    margin-bottom: 0; }
+  
+  .contact_map {
+    margin-bottom: 58px; }
+  
+  .map-area #googleMap {
+    height: 460px;
+    width: 100%; }
+  
+  /*contact page css end*/

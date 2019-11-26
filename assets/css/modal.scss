@@ -1,0 +1,227 @@
+/*  24. modal css here */
+.modal-dialog.modal-dialog-centered {
+    min-width: 1100px; }
+    @media only screen and (min-width: 1200px) and (max-width: 1600px) {
+      .modal-dialog.modal-dialog-centered {
+        min-width: 1000px; } }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .modal-dialog.modal-dialog-centered {
+        min-width: 950px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .modal-dialog.modal-dialog-centered {
+        min-width: 730px; } }
+    @media only screen and (max-width: 767px) {
+      .modal-dialog.modal-dialog-centered {
+        min-width: 90%; } }
+  
+  .modal_tab_img {
+    text-align: center;
+    margin-bottom: 10px; }
+    .modal_tab_img img {
+      margin: 0 auto; }
+  
+  .modal_tab_button ul li a {
+    padding: 0;
+    border: 1px solid #ebebeb;
+    margin: 0 2px; }
+    .modal_tab_button ul li a img {
+      width: 100%; }
+  
+  .modal_title h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 14px;
+    line-height: 26px; }
+  
+  .modal_social h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 20px; }
+  
+  .modal_social ul li {
+    display: inline-block;
+    margin-right: 3px; }
+    .modal_social ul li a {
+      text-transform: uppercase;
+      display: inline-block;
+      width: 38px;
+      height: 38px;
+      text-align: center;
+      line-height: 38px;
+      border-radius: 50%;
+      font-size: 15px;
+      color: #ffffff;
+      font-weight: 400; }
+    .modal_social ul li.facebook a {
+      background: #3c5b9b; }
+      .modal_social ul li.facebook a:hover {
+        background: #c40316; }
+    .modal_social ul li.twitter a {
+      background: #1DA1F2; }
+      .modal_social ul li.twitter a:hover {
+        background: #c40316; }
+    .modal_social ul li.pinterest a {
+      background: #BD081B; }
+      .modal_social ul li.pinterest a:hover {
+        background: #c40316; }
+    .modal_social ul li.google-plus a {
+      background: #DC5043; }
+      .modal_social ul li.google-plus a:hover {
+        background: #c40316; }
+    .modal_social ul li.linkedin a {
+      background: #010103; }
+      .modal_social ul li.linkedin a:hover {
+        background: #c40316; }
+  
+  .modal_price {
+    margin-bottom: 12px; }
+    .modal_price span {
+      font-weight: 600;
+      color: #c40316;
+      font-size: 16px; }
+      .modal_price span.old_price {
+        color: #222222;
+        font-size: 14px;
+        font-weight: 400;
+        text-decoration: line-through;
+        margin-left: 5px; }
+  
+  .modal_description p {
+    line-height: 24px;
+    font-size: 15px;
+    margin: 0; }
+  
+  .variants_size h2, .variants_color h2 {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    line-height: 20px; }
+  
+  .variants_size.mb-15, .mb-15.variants_color {
+    margin-bottom: 24px; }
+  
+  .variants_size .select_option, .variants_color .select_option {
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 25px; }
+    .variants_size .select_option .list, .variants_color .select_option .list {
+      width: 100%;
+      border-radius: 0; }
+  
+  .modal_add_to_cart {
+    margin-bottom: 25px; }
+    .modal_add_to_cart form input {
+      width: 95px;
+      border: 1px solid #ebebeb;
+      background: none;
+      padding: 0 10px;
+      height: 45px; }
+      @media only screen and (max-width: 767px) {
+        .modal_add_to_cart form input {
+          width: 75px; } }
+    .modal_add_to_cart form button {
+      background: none;
+      border: 1px solid #222222;
+      margin-left: 10px;
+      font-size: 12px;
+      font-weight: 700;
+      height: 45px;
+      width: 230px;
+      line-height: 18px;
+      padding: 10px 15px;
+      text-transform: uppercase;
+      background: #222222;
+      color: #ffffff;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+      cursor: pointer; }
+      @media only screen and (max-width: 767px) {
+        .modal_add_to_cart form button {
+          width: 130px; } }
+      .modal_add_to_cart form button:hover {
+        background: #c40316;
+        color: #ffffff;
+        border-color: #c40316; }
+  
+  .modal_body {
+    padding: 29px 6px 38px; }
+    @media only screen and (max-width: 767px) {
+      .modal_body {
+        padding: 42px 6px 38px; } }
+    @media only screen and (max-width: 767px) {
+      .modal_body .modal_tab {
+        margin-bottom: 60px; } }
+  
+  .modal-content {
+    border-radius: 0; }
+  
+  .modal-content button.close {
+    position: absolute;
+    left: 94%;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    display: block;
+    border: 1px solid #ebebeb;
+    top: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 9; }
+    @media only screen and (max-width: 767px) {
+      .modal-content button.close {
+        left: 83%;
+        width: 32px;
+        height: 32px;
+        line-height: 30px;
+        top: 4px;
+        margin-bottom: 14px; } }
+    .modal-content button.close:hover {
+      color: #c40316; }
+  
+  .modal_add_to_cart.mb-15 {
+    margin-bottom: 23px; }
+  
+  .modal_description.mb-15 {
+    margin-bottom: 20px; }
+  
+  .product_navactive.owl-carousel:hover .owl-nav div {
+    opacity: 1;
+    visibility: visible; }
+  
+  .product_navactive.owl-carousel .owl-nav {
+    display: block; }
+    .product_navactive.owl-carousel .owl-nav div {
+      position: absolute;
+      background: #f2f2f2;
+      border-radius: 3px;
+      color: #333;
+      height: 32px;
+      top: 50%;
+      -webkit-transform: translatey(-50%);
+      -ms-transform: translatey(-50%);
+      transform: translatey(-50%);
+      width: 32px;
+      text-align: center;
+      line-height: 32px;
+      left: -7px;
+      font-size: 18px;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+      opacity: 0;
+      visibility: hidden; }
+      .product_navactive.owl-carousel .owl-nav div:hover {
+        background: #c40316;
+        color: #ffffff; }
+      .product_navactive.owl-carousel .owl-nav div.owl-next {
+        right: -7px;
+        left: auto; }
+  
+  /*modal css end*/
+  

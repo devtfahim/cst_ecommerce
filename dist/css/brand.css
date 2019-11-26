@@ -1,0 +1,50 @@
+/*brand css here*/
+.brand_area {
+  padding: 40px 0;
+}
+
+.brand_container .single_brand img {
+  width: inherit;
+  margin: 0 auto;
+}
+
+.brand_container:hover .owl-nav div {
+  opacity: 1;
+  visibility: visible;
+}
+
+.brand_container .owl-nav.disabled {
+  display: block;
+}
+
+.brand_container .owl-nav div {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translatey(-50%);
+  transform: translatey(-50%);
+  left: 0;
+  font-size: 18px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #a2a2a2;
+  border-radius: 3px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  background: #ffffff;
+}
+
+.brand_container .owl-nav div:hover {
+  color: #ffffff;
+  background: #c40316;
+  border-color: #c40316;
+}
+
+.brand_container .owl-nav div.owl-next {
+  right: 0;
+  left: auto;
+}
+/*# sourceMappingURL=brand.css.map */

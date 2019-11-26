@@ -1,0 +1,104 @@
+/*--
+    08. Testimonial Css
+--------------------------------*/
+@media only screen and (max-width: 767px) {
+  .testimonials-area {
+    margin-top: 57px;
+  }
+}
+
+.testimonial-two {
+  background: #fff;
+  border-radius: 7px;
+  padding: 55px 25px;
+}
+
+@media only screen and (max-width: 767px) {
+  .testimonial-two {
+    padding: 30px 18px;
+  }
+}
+
+.testimonial-two .owl-dots {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.testimonial-two .owl-dots .owl-dot {
+  width: 6px;
+  height: 6px;
+  background: #c40316;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 2px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.testimonial-two .owl-dots .owl-dot:hover {
+  width: 25px;
+  border-radius: 30px;
+}
+
+.testimonial-two .owl-dots .owl-dot.active {
+  width: 25px;
+  border-radius: 30px;
+}
+
+.quote-container {
+  margin: auto;
+  position: relative;
+}
+
+.quote-container .quote-image {
+  display: inline-block;
+  height: 90px;
+  margin-right: 10px;
+  overflow: hidden;
+  vertical-align: middle;
+  width: 90px;
+  border: 7px solid #f6f5f1;
+  border-radius: 100%;
+  position: absolute;
+  left: 20px;
+  top: -45px;
+}
+
+.quote-container .testimonials-text {
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 37px;
+}
+
+.quote-container .testimonials-text::before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  width: 23px;
+  height: 17px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translatex(-50%);
+  transform: translatex(-50%);
+  background: url(../img/about/quote-icon.png) center center no-repeat;
+}
+
+.quote-container .author {
+  margin-top: 25px;
+}
+
+.quote-container .author h6 {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #c40316;
+}
+
+.testimonial-wrap-two .quote-container .quote-image {
+  margin-right: 0px;
+  position: inherit;
+  left: 0px;
+  top: 0px;
+}
+/*# sourceMappingURL=testimonial.css.map */

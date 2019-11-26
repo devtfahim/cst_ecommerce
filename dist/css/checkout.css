@@ -1,0 +1,353 @@
+/* 14. checkout page css here */
+.checkout_page_bg {
+  background: #F5F5F9;
+  padding: 60px 0 133px;
+}
+
+@media only screen and (max-width: 767px) {
+  .checkout_page_bg {
+    padding: 60px 0 111px;
+  }
+}
+
+.checkout_form_left {
+  background: #ffffff;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .checkout_form_left {
+    margin-bottom: 60px;
+  }
+}
+
+.checkout_form_right {
+  background: #ffffff;
+  padding: 20px;
+}
+
+.user-actions {
+  margin-bottom: 20px;
+}
+
+.user-actions h3 {
+  font-size: 13px;
+  font-weight: 400;
+  background: #ffffff;
+  padding: 15px 10px;
+  border-top: 3px solid #c40316;
+  margin-bottom: 0;
+}
+
+.user-actions h3 a {
+  color: #c40316;
+}
+
+.checkout_info {
+  border: 1px solid #ebebeb;
+  background: #ffffff;
+  margin-top: 25px;
+  padding: 20px 30px;
+}
+
+.checkout_info p {
+  margin-bottom: 15px;
+}
+
+.checkout_info a {
+  color: #c40316;
+  margin-top: 15px;
+  display: block;
+}
+
+.form_group {
+  margin-bottom: 20px;
+}
+
+.form_group label {
+  font-size: 14px;
+  display: block;
+  line-height: 18px;
+}
+
+.form_group input {
+  border: 1px solid #ebebeb;
+  background: none;
+  height: 45px;
+  width: 350px;
+  padding: 0 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .form_group input {
+    width: 100%;
+  }
+}
+
+.form_group button {
+  display: inline-block;
+  width: 80px;
+  background: #222222;
+  border: 0;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-right: 20px;
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 3px;
+}
+
+.form_group button:hover {
+  background: #c40316;
+}
+
+.form_group input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  position: relative;
+  top: 3px;
+}
+
+.form_group.group_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.form_group.group_3 label {
+  margin-bottom: 0;
+  line-height: 34px;
+  cursor: pointer;
+}
+
+.form_group.group_3 label:hover {
+  color: #c40316;
+}
+
+#checkout_coupon input {
+  background: none;
+  border: 1px solid #ebebeb;
+  width: 200px;
+  height: 45px;
+  font-size: 12px;
+  padding: 0 20px;
+  color: #222222;
+}
+
+#checkout_coupon button {
+  width: 130px;
+  background: #222222;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 13px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: 0;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  #checkout_coupon button {
+    margin-top: 20px;
+  }
+}
+
+#checkout_coupon button:hover {
+  background: #c40316;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.checkout_form h3 {
+  font-size: 16px;
+  line-height: 30px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #222222;
+  font-weight: 500;
+}
+
+.checkout_form input {
+  border: 1px solid #ebebeb;
+  background: none;
+  height: 40px;
+  width: 100%;
+  padding: 0 20px;
+  color: #222222;
+}
+
+.checkout_form .nice-select {
+  width: 100%;
+}
+
+.checkout_form .nice-select ul.list {
+  width: 100%;
+  height: 180px;
+  overflow: auto;
+}
+
+.checkout_form .nice-select::after {
+  top: 56%;
+}
+
+.checkout_form label {
+  font-weight: 500;
+}
+
+.checkout_form label span {
+  color: #c40316;
+}
+
+.checkout_form label.righ_0 {
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 27px;
+  padding: 5px 10px;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #222222;
+  font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .checkout_form label.righ_0 {
+    font-size: 13px;
+    line-height: 25px;
+    padding: 3px 10px;
+  }
+}
+
+.checkout_form label.righ_0:hover {
+  background: #c40316;
+}
+
+.checkout_form input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+
+.order_button button {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 5px 10px;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #c40316;
+  font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .order_button button {
+    font-size: 14px;
+  }
+}
+
+.order_button button:hover {
+  background: #222222;
+}
+
+.order-notes textarea {
+  border: 1px solid #e5e5e5;
+  border-radius: 0;
+  height: 45px;
+  max-width: 100%;
+  padding: 0 30px 0 20px;
+  background: none;
+  font-size: 13px;
+  resize: none;
+  line-height: 45px;
+  width: 100%;
+  color: #222222;
+}
+
+.order-notes label {
+  line-height: 13px;
+}
+
+.order_table {
+  margin-bottom: 35px;
+}
+
+.order_table table {
+  width: 100%;
+}
+
+.order_table table thead tr th {
+  min-width: 50%;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.order_table table tbody tr td {
+  min-width: 50%;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.order_table table tfoot tr th {
+  min-width: 50%;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.order_table table tfoot tr td {
+  min-width: 50%;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.panel-default input[type="radio"] {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+
+.panel-default img {
+  width: 160px;
+}
+
+.order_button button {
+  border: 0;
+}
+
+.card-body1 {
+  margin-bottom: 15px;
+}
+
+/*checkout page css end*/
+/*# sourceMappingURL=checkout.css.map */

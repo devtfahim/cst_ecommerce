@@ -1,0 +1,98 @@
+/* 12. product grouped css here */
+.grouped_form {
+  border: 1px solid #ebebeb;
+  margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .grouped_form {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .grouped_form {
+    margin-bottom: 17px;
+  }
+}
+
+.grouped_form table {
+  width: 100%;
+}
+
+.grouped_form table tbody tr {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.grouped_form table tbody tr td {
+  border-right: 1px solid #ddd;
+  padding: 11px 5px;
+  text-align: center;
+}
+
+.grouped_form table tbody tr td input[type="checkbox"] {
+  width: 20px;
+  height: 21px;
+}
+
+.grouped_form table tbody tr td input[type="number"] {
+  width: 50px;
+  background: inherit;
+  border: 1px solid #ebebeb;
+  padding: 0 5px;
+  height: 40px;
+}
+
+.grouped_form table tbody tr td.grouped-product-list.quantity {
+  min-width: 80px;
+  text-align: center;
+  line-height: 12px;
+}
+
+.grouped_form table tbody tr td.grouped-product-list.label {
+  min-width: 188px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.grouped_form table tbody tr td.grouped-product-list.label a:hover {
+  color: #c40316;
+}
+
+.grouped_form table tbody tr td.grouped-product-list.price {
+  font-size: 14px;
+  font-weight: 500;
+  min-width: 190px;
+}
+
+.grouped_form table tbody tr td.grouped-product-list.price p {
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+}
+
+.grouped_form table tbody tr td.grouped-product-list.price p::before {
+  color: #0066c0;
+  content: '\f058';
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 1em;
+  position: absolute;
+  top: 0;
+  left: 40px;
+}
+
+.grouped_form table tbody tr td:last-child {
+  border-right: 0;
+}
+
+.grouped_form table tbody tr:last-child {
+  border-bottom: 0;
+}
+
+.box_quantity.group button {
+  margin-left: 0;
+}
+
+/*product grouped css end*/
+/*# sourceMappingURL=product_group.css.map */

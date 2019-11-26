@@ -1,0 +1,133 @@
+/*06. newsletter area css here*/
+.newsletter_area {
+    margin-top: -73px; }
+    @media only screen and (max-width: 767px) {
+      .newsletter_area {
+        margin-top: -50px; } }
+  
+  .newsletter_inner {
+    padding: 45px 35px;
+    border: 1px solid #ebebeb;
+    background: #ffffff; }
+    @media only screen and (max-width: 767px) {
+      .newsletter_inner {
+        padding: 30px 15px;
+        text-align: center; } }
+  
+  @media only screen and (max-width: 767px) {
+    .newsletter_sing_up {
+      margin-bottom: 14px; } }
+  
+  .newsletter_sing_up h3 {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 5px; }
+    @media only screen and (max-width: 767px) {
+      .newsletter_sing_up h3 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 3px; } }
+  
+  .newsletter_sing_up p {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400; }
+    .newsletter_sing_up p span {
+      color: #c40316; }
+    @media only screen and (max-width: 767px) {
+      .newsletter_sing_up p {
+        font-size: 13px;
+        line-height: 22px; } }
+  
+  @media only screen and (max-width: 767px) {
+    .subscribe_content {
+      margin-bottom: 22px; } }
+  
+  .subscribe_content p {
+    font-size: 14px;
+    line-height: 25px; }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .subscribe_form {
+      margin-top: 25px; } }
+  
+  @media only screen and (max-width: 767px) {
+    .subscribe_form {
+      width: 100%; } }
+  
+  .subscribe_form form {
+    width: 100%;
+    position: relative;
+    background: #ffffff;
+    border-radius: 4px; }
+    .subscribe_form form input::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #666; }
+    .subscribe_form form input::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #666; }
+    .subscribe_form form input:-ms-input-placeholder {
+      /* IE 10+ */
+      color: #666; }
+    .subscribe_form form input:-moz-placeholder {
+      /* Firefox 18- */
+      color: #666; }
+    .subscribe_form form input {
+      width: 100%;
+      border: 1px solid #ebebeb;
+      background: none;
+      padding: 0 158px 0 15px;
+      height: 50px;
+      font-size: 14px;
+      color: #666;
+      border-radius: 4px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .subscribe_form form input {
+          padding: 0 125px 0 15px; } }
+      @media only screen and (max-width: 767px) {
+        .subscribe_form form input {
+          height: 40px;
+          font-size: 12px;
+          padding: 0 106px 0 15px; } }
+    .subscribe_form form button {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 0 20px;
+      width: 140px;
+      background: #c40316;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      height: 100%;
+      border: 0;
+      display: block;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s;
+      border-radius: 0 4px 4px 0; }
+      .subscribe_form form button:hover {
+        color: #ffffff;
+        background: #222222; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .subscribe_form form button {
+          width: 110px; } }
+      @media only screen and (max-width: 767px) {
+        .subscribe_form form button {
+          font-size: 12px;
+          padding: 0 8px;
+          width: 94px; } }
+  
+  .mailchimp-error {
+    text-align: left;
+    color: green; }
+  
+  .mailchimp-success {
+    text-align: left;
+    max-width: 510px;
+    color: green; }
+    .mailchimp-success.active {
+      margin-top: 20px; }
