@@ -1,0 +1,192 @@
+/*product sidebar css here*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .product_sidebar {
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .product_sidebar {
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .product_sidebar .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .product_sidebar .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .product_sidebar .product_section .row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .product_sidebar .product_section .row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.product_sidebar .product_desc p {
+  width: 100%;
+}
+
+.product_sidebar .product_variant.quantity input {
+  width: 90px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .product_sidebar .product_variant.quantity input {
+    width: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .product_sidebar .product_variant.quantity input {
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .product_sidebar .product_variant.quantity input {
+    width: 60px;
+  }
+}
+
+.product_sidebar .product_variant.quantity button {
+  min-width: 200px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .product_sidebar .product_variant.quantity button {
+    min-width: 140px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .product_sidebar .product_variant.quantity button {
+    min-width: inherit;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .product_sidebar .product_variant.quantity button {
+    min-width: inherit;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .product_sidebar .product-details-tab {
+    margin-bottom: 0;
+  }
+}
+
+.product_sidebar .price_box span.current_price {
+  font-size: 16px;
+}
+
+.product_sidebar .price_box span.old_price {
+  font-size: 15px;
+}
+
+.product_sidebar .price_box span.regular_price {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .product_sidebar .add_to_cart a {
+    width: 180px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .product_sidebar .add_to_cart a {
+    width: 190px;
+  }
+}
+
+.product_right_sidebar {
+  padding: 25px 25px 0;
+  margin-bottom: 55px;
+}
+
+@media only screen and (max-width: 767px) {
+  .product_right_sidebar {
+    padding: 25px 20px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .product_right_sidebar .product-details-tab {
+    margin-bottom: 45px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .product_right_sidebar .row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .product_right_sidebar .row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .product_right_sidebar .single-zoom-thumb {
+    width: 92%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .product_right_sidebar .single-zoom-thumb {
+    width: 92%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .product_right_sidebar .priduct_social ul li {
+    margin-right: 2px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .product_right_sidebar .priduct_social ul li a {
+    padding: 0 6px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .product_right_sidebar .product_d_right h3 {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=product_sidebar.css.map */
